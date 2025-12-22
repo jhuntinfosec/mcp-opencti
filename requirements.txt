@@ -1,0 +1,11 @@
+# Production dependencies for OpenCTI MCP Server
+# Install with: pip install -r requirements.txt
+
+# MCP Server framework
+mcp[fastmcp]>=0.1.0
+
+# OpenCTI Python client
+pycti>=6.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
