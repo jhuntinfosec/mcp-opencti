@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "opencti": {
+      "command": "/Users/slacker/mcp/mcp-opencti/.venv/bin/python",
+      "args": [
+        "/Users/slacker/mcp/mcp-opencti/opencti_mcp_server_v7.py"
+      ],
+      "env": {
+        "OPENCTI_URL": "http://localhost:8080",
+        "OPENCTI_TOKEN": "YOUR_OPENCTI_API_TOKEN_HERE"
+      }
+    }
+  }
+}
